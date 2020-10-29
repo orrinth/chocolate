@@ -1,0 +1,79 @@
+
+form {
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgba(210, 105, 30, 0.6), rgba(210, 105, 30, 0.6));
+    border: 5px solid chocolate;
+    border-radius: 1rem;
+    width: 28rem;
+    height: 45rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+form h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.name, .email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.name label, .email label {
+    font-style: normal;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 0 0.2rem;
+}
+
+input[type="text"] {
+    margin-left: 0.27rem;
+}
+
+input[type="email"] {
+    margin-left: 0.5rem;
+}
+
+fieldset {
+    margin-top: 2rem;
+    border: none;
+}
+
+legend {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form label {
+    font-style: italic;
+}
+
+form button {
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    background: chocolate;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin: 4rem 0 0 0;
+    font-size: 1.2rem;
+    transition: background 0.2s ease-out, color 0.2s ease-out;
+}
+
+form button:hover {
+    background: brown;
+    color: white;
+}
