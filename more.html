@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Orrin">
+        <meta name="description" content="A form about chocolate.">
+        <meta name="keywords" content="Form, chocolate">
+        <title>Chocolate Delights | More</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/chocolate.css">
+        <link rel="stylesheet" href="styles/more.css">
+        <script src="scripts/chocolate.js" defer></script>
+    </head>
+    <body>
+        <nav id="top">
+            <header><a href="index.html"><i class="fas fa-laugh-beam"></i>Chocolate Delights</a></header>
+            <ul>
+                <li><a href="index.html" title="Home" target="_self">Home</a></li>
+                <li><a href="benefits.html" title="Benefits" target="_self">Benefits</a></li>
+                <li><a href="desserts.html" title="Desserts" target="_self">Desserts</a></li>
+                <li><a href="more.html" title="More" target="_self" class="current">More</a></li>
+            </ul>
+            
+            <div class="burger">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+        </nav>
+        <main>
+            <form>
+                <h1>Chocolate Form</h1>
+
+                <section class="name">
+                    <label for="user-name">Name:</label>
+                    <input type="text" id="user-name" placeholder="Enter name here...">
+                </section>
+
+                <section class="email">
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" placeholder="someone@email.com">
+                </section>
+
+                <fieldset>
+                    <legend>Favorite Chocolate Flavor:</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="milk-chocolate" value="milk-chocolate" name="chocolate-flavors">
+                            <label for="milk-chocolate">Milk Chocolate</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="dark-chocolate" value="dark-chocolate" name="chocolate-flavors">
+                            <label for="dark-chocolate">Dark Chocolate</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="white-chocolate" value="white-chocolate" name="chocolate-flavors">
+                            <label for="white-chocolate">White Chocolate</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Chocolate Intake Frequency:</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="daily" value="daily" name="chocolate-intake">
+                            <label for="daily">Daily</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sometimes" value="sometimes" name="chocolate-intake">
+                            <label for="sometimes">Sometimes</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="rarely" value="rarely" name="chocolate-intake">
+                            <label for="rarely">Rarely</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="never" value="never" name="chocolate-intake">
+                            <label for="never">Never</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Chocolate is:</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="delicious" value="delicious" name="chocolate-opinions" checked>
+                            <label for="delicious">Delicious</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="fun" value="fun" name="chocolate-opinions">
+                            <label for="fun">Fun</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="disgusting" value="disgusting" name="chocolate-opinions">
+                            <label for="disgusting">Disgusting</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="boring" value="boring" name="chocolate-opinions">
+                            <label for="boring">Boring</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="index.html" title="Home" target="_self">Home</a></li>|
+                <li><a href="benefits.html" title="Benefits" target="_self">Benefits</a></li>|
+                <li><a href="desserts.html" title="Desserts" target="_self">Desserts</a></li>|
+                <li><a href="more.html" title="More" target="_self">More</a></li>
+            </ul>
+
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+
+            <a href="#top">Back to Top</a>
+        </footer>
+    </body>
+</html>
