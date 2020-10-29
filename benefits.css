@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2rem;
+    margin: 2rem 2rem 1rem 2rem;
+    text-align: center;
+}
+
+p {
+    box-sizing: border-box;
+    padding: 1.9rem;
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient(135deg, saddlebrown, chocolate);
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+    line-height: 1.5;
+    position: relative;
+    left: calc(50vw - 32rem);
+}
+
+img {
+    position: relative;
+    left: 50vw;
+    bottom: 1rem;
+    width: 30rem;
+    height: 30rem;
+    box-sizing: border-box;
+    
+}
+
+@media (max-width: 1000px) {
+    p, img{
+        left: calc(50vw - 15rem);
+        margin: 0;
+    }
+}
