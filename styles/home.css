@@ -35,7 +35,7 @@
 }
 
 #milk-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/chocolate10.webp") saddlebrown;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/milk-chocolate) saddlebrown;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -44,7 +44,7 @@
 }
 
 #dark-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/chocolate7.webp") rgb(97, 48, 12);
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/dark-chocolate) rgb(97, 48, 12);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -53,7 +53,7 @@
 }
 
 #white-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/chocolate5.webp") papayawhip;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/white-chocolate) papayawhip;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
