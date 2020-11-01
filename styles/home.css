@@ -35,29 +35,32 @@
 }
 
 #milk-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/milk-chocolate) saddlebrown;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/milk-chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
+    background-color: saddlebrown;
     transform: scale(1);
 }
 
 #dark-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/dark-chocolate) rgb(97, 48, 12);
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/dark-chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
+    background-color: rgb(97, 48, 12);
     transform: scale(1);
 }
 
 #white-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/white-chocolate) papayawhip;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/white-chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
+    background-color: papayawhip;
     transform: scale(1);
 }
 
