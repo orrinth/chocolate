@@ -35,7 +35,7 @@
 }
 
 #milk-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/milk-chocolate.jpg);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/milk-chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -45,7 +45,7 @@
 }
 
 #dark-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/dark-chocolate.jpg);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/dark-chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -55,7 +55,7 @@
 }
 
 #white-chocolate {
-    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/white-chocolate.jpg);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/white-chocolate.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
